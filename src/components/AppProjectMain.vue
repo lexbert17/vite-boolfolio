@@ -1,5 +1,6 @@
 <script>
 import axios from 'axios';
+import CardProjects from './CardProjects.vue';
 export default{
     data(){
         return{
@@ -9,10 +10,11 @@ export default{
     created(){
         axios.get('http://127.0.0.1:8000/api/projects')
             .then((resp) => {
-                this.projects = resp.data.results.data;
+                this.projects = resp.data.results;
+                // console.log(resp);
             });
      },
-     components: {}
+     components: {CardProjects}
      
 
 }
@@ -25,7 +27,7 @@ export default{
 
     <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
       <div class="col" v-for="project in projects" :key="project.id">
-        <PostCars :project="project" />
+        <CardProjects :project="project" />
       </div>
     </div>
 

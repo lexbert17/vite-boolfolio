@@ -1,5 +1,6 @@
 <script>
-import AppMain from './components/appMain.vue'
+import AppProjectMain from './components/AppProjectMain.vue';
+
 
 
 export default{
@@ -8,7 +9,7 @@ export default{
        
     }
   },
-  components: { AppMain},
+  components: {  AppProjectMain },
   created(){
 
   }
@@ -16,7 +17,9 @@ export default{
 </script>
 
 <template>
-<h1>ciao</h1>
+<h1>hey</h1>
+
+<AppProjectMain />
 </template>
 
 <style lang="scss">
