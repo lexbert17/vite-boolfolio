@@ -1,9 +1,16 @@
 <script>
+import AppMain from './components/appMain.vue'
+
+
 export default{
   data(){
     return{
        
     }
+  },
+  components: { AppMain},
+  created(){
+
   }
 }
 </script>
