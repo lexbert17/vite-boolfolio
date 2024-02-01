@@ -23,13 +23,11 @@ export default {
   <div class="card h-100">
     <div class="card-body">
       <h5>{{ project.title }}</h5>
-      <span
-        >Category:
-        {{ project.type ? project.type.name : "Nessuna categoria" }}</span
-      >
+      <span>tipo:
+        {{ project.type ? project.type.name : "Nessuna categoria" }}</span>
       <p>{{ truncateText }}</p>
     </div>
-  </div>
+  </div> 
 </template>
 
 <style lang="scss" scoped></style>
