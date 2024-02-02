@@ -1,6 +1,6 @@
 <script>
 import AppProjectMain from './components/AppProjectMain.vue';
-
+ 
 
 
 export default{
@@ -17,9 +17,9 @@ export default{
 </script>
 
 <template>
-<h1>hey</h1>
 
 <AppProjectMain />
+<router-view></router-view>
 </template>
 
 <style lang="scss">
