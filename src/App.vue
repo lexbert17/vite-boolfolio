@@ -1,15 +1,13 @@
 <script>
-import AppProjectMain from './components/AppProjectMain.vue';
- 
 
-
+import AppHeader from './components/AppHeader.vue';
 export default{
   data(){
     return{
        
     }
   },
-  components: {  AppProjectMain },
+  components: { AppHeader },
   created(){
 
   }
@@ -17,8 +15,7 @@ export default{
 </script>
 
 <template>
-
-<AppProjectMain />
+<AppHeader />
 <router-view></router-view>
 </template>
 

@@ -1,6 +1,6 @@
 <script>
 import axios from 'axios';
-import CardProjects from './CardProjects.vue';
+import CardProjects from '../components/CardProjects.vue';
 export default{
     data(){
         return{
