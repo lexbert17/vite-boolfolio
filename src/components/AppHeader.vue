@@ -21,7 +21,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Boolpress</a>
+      <a class="navbar-brand" href="#">Boolfolio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,9 +33,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="ms-auto navbar-nav list-unstyled">
+        <ul class="ms-auto navbar-nav">
           <li class="nav-item" v-for="link in links" :key="link.title">
-          <router-link class="text-white gap-5 " :to="{ name: link.name }">{{ link.title }} </router-link>
+          <router-link class=" nav-link " :to="{ name: link.name }">{{ link.title }} </router-link>
         </li>
         </ul>
       </div>

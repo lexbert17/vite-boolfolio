@@ -6,7 +6,7 @@ export default {
 
 <template>
 <div class="container">
-    <h1>this projects</h1>
+    <h1>info su di noi</h1>
 </div>
 </template>
 
