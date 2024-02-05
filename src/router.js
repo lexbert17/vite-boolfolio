@@ -17,7 +17,7 @@ const router = createRouter({
             component: AboutPage,
         },
         {
-            path: '/project/:slag',
+            path: '/project/:slug',
             name: 'single-project',
             component: SingleProjectPage,
         },
