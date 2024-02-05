@@ -26,6 +26,7 @@ export default {
       <span>tipo:
         {{ project.type ? project.type.name : "Nessuna categoria" }}</span>
       <p>{{ truncateText }}</p>
+      <router-link :to="{name: 'single-project', params: {slug: project.slug}}">dettagli</router-link>
     </div>
   </div> 
 </template>
