@@ -35,7 +35,7 @@ import { store } from "../store";
 
     <div class="container mt-4">
     <div v-if="loading">
-      Caricamento...
+      Caricamento..
     </div>
     <div v-else>
       <h1>{{ project.title }}</h1>
